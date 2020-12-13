@@ -1,0 +1,57 @@
+Logfile of HijackThis v1.99.1
+Scan saved at 10:18:39, on 03/06/2006
+Platform: Windows XP SP2 (WinNT 5.01.2600)
+MSIE: Internet Explorer v6.00 SP2 (6.00.2900.2180)
+
+Running processes:
+C:\WINDOWS\System32\smss.exe
+C:\WINDOWS\system32\winlogon.exe
+C:\WINDOWS\system32\services.exe
+C:\WINDOWS\system32\lsass.exe
+C:\WINDOWS\system32\Ati2evxx.exe
+C:\WINDOWS\system32\svchost.exe
+C:\WINDOWS\System32\svchost.exe
+C:\WINDOWS\system32\spoolsv.exe
+C:\PROGRA~1\Symantec_Client_Security\Symantec AntiVirus\DefWatch.exe
+C:\Program Files\Kerio\Personal Firewall 4\kpf4ss.exe
+C:\PROGRA~1\Symantec_Client_Security\Symantec AntiVirus\Rtvscan.exe
+C:\Program Files\Kerio\Personal Firewall 4\kpf4gui.exe
+C:\Program Files\Analog Devices\SoundMAX\SMAgent.exe
+C:\WINDOWS\System32\wltrysvc.exe
+C:\WINDOWS\system32\Ati2evxx.exe
+C:\WINDOWS\Explorer.EXE
+C:\WINDOWS\System32\bcmwltry.exe
+C:\Program Files\Kerio\Personal Firewall 4\kpf4gui.exe
+C:\Program Files\Analog Devices\SoundMAX\SMax4PNP.exe
+C:\Program Files\ATI Technologies\ATI Control Panel\atiptaxx.exe
+C:\PROGRA~1\Symantec_Client_Security\Symantec AntiVirus\vptray.exe
+C:\WINDOWS\lclock.exe
+C:\PROGRA~1\MOZILLA FIREFOX\FIREFOX.EXE
+C:\Program Files\Notepad++\notepad++.exe
+D:\install\HijackThis.exe
+
+R1 - HKCU\Software\Microsoft\Internet Explorer\Main,Search Bar = http://www.google.fr/ie
+R1 - HKCU\Software\Microsoft\Internet Explorer\Main,Search Page = http://www.google.fr
+R0 - HKCU\Software\Microsoft\Internet Explorer\Main,Start Page = http://www.winlsd.org
+R0 - HKLM\Software\Microsoft\Internet Explorer\Search,SearchAssistant = http://www.google.fr/ie
+R1 - HKCU\Software\Microsoft\Internet Explorer\SearchURL,(Default) = http://www.google.fr/keyword/%s
+R1 - HKCU\Software\Microsoft\Internet Connection Wizard,ShellNext = http://windowsupdate.microsoft.com/
+R0 - HKCU\Software\Microsoft\Internet Explorer\Toolbar,LinksFolderName = 
+O4 - HKLM\..\Run: [SoundMAXPnP] C:\Program Files\Analog Devices\SoundMAX\SMax4PNP.exe
+O4 - HKLM\..\Run: [SoundMAX] C:\Program Files\Analog Devices\SoundMAX\Smax4.exe /tray
+O4 - HKLM\..\Run: [ATIPTA] "C:\Program Files\ATI Technologies\ATI Control Panel\atiptaxx.exe"
+O4 - HKLM\..\Run: [vptray] C:\PROGRA~1\Symantec_Client_Security\Symantec AntiVirus\vptray.exe
+O4 - HKLM\..\Run: [QuickTime Task] "C:\Program Files\QuickTime\qttask.exe" -atboottime
+O4 - HKLM\..\Run: [CloneCDTray] "C:\Program Files\SlySoft\CloneCD\CloneCDTray.exe" /s
+O4 - HKCU\..\Run: [LClock] lclock.exe
+O16 - DPF: {6414512B-B978-451D-A0D8-FCFDF33E833C} (WUWebControl Class) - http://update.microsoft.com/windowsupdate/v6/V5Controls/en/x86/client/wuweb_site.cab?1148632831531
+O20 - Winlogon Notify: NavLogon - C:\WINDOWS\system32\NavLogon.dll
+O23 - Service: Ati HotKey Poller - ATI Technologies Inc. - C:\WINDOWS\system32\Ati2evxx.exe
+O23 - Service: DefWatch - Symantec Corporation - C:\PROGRA~1\Symantec_Client_Security\Symantec AntiVirus\DefWatch.exe
+O23 - Service: InstallDriver Table Manager (IDriverT) - Macrovision Corporation - C:\Program Files\Fichiers communs\InstallShield\Driver\11\Intel 32\IDriverT.exe
+O23 - Service: Kerio Personal Firewall 4 (KPF4) - Kerio Technologies - C:\Program Files\Kerio\Personal Firewall 4\kpf4ss.exe
+O23 - Service: Symantec AntiVirus Client (Norton AntiVirus Server) - Symantec Corporation - C:\PROGRA~1\Symantec_Client_Security\Symantec AntiVirus\Rtvscan.exe
+O23 - Service: Remote Packet Capture Protocol v.0 (experimental) (rpcapd) - Unknown owner - %ProgramFiles%\WinPcap\rpcapd.exe" -d -f "%ProgramFiles%\WinPcap\rpcapd.ini (file missing)
+O23 - Service: SoundMAX Agent Service (SoundMAX Agent Service (default)) - Analog Devices, Inc. - C:\Program Files\Analog Devices\SoundMAX\SMAgent.exe
+O23 - Service: WLTRYSVC - Unknown owner - C:\WINDOWS\System32\wltrysvc.exe
+

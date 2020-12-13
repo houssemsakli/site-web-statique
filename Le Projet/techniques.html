@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <title>Les Techniques d'Attaques</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href="style.css" />
+	  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    </head>
+	
+	<body>
+		<div id="menu">
+			<table>
+				<tr><td width="20%"><a href="http://www.isimm.rnu.tn"> 
+					<img src="images/logoisimm.png"  class="logo" width=110 height=90 align="left"/></a><p id="titre2">Bienvenue sur ce site dédié au piratage informatique dans le cadre d'un projet de l'ISIMM (LA 1 INFO).</p><br/><p id="titre2">Ce site a été créé par Houssem Sakli.</p>
+					<a href="https://www.facebook.com/houssem.sakli.10"> <img style="margin-left: 20%;" class="logo" src="images/logofb.png" width="30" height="30" /></a>
+					<a href="https://www.youtube.com/channel/UCbP1sai0Oy_XeheUQ_zgwWw"> <img style="margin-left: 3%;" class="logo" src="images/logoyoutube.png" width="30" height="30" /></a>
+					<a href="https://www.instagram.com/houssemsakli/"> <img style="margin-left: 3%;" class="logo" src="images/logoinsta.png" width="30" height="30" /></a>
+					<a href="https://twitter.com/houssemsaklii"> <img style="margin-left: 3%;" class="logo" src="images/logotwitter.png" width="30" height="30" /></a>
+					</td>
+					<td width="60%"> <p id="titre" align="center"><span> Le Piratage Informatique </span></p> </td>
+					<td width="20%"> <img src="images/logo2.jpg" class="logo" width=300 height=190 align="right"/>
+				</tr>
+			</table>
+		
+			<ul>
+				<li><a href="accueil.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Accueil</a></li>
+				<li><a href="menaces.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Menaces</a></li>
+				<li id="selected"><a href="techniques.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Techniques</a></li>
+				<li><a href="protections.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Protections</a></li>
+				<li><a href="logiciels.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Logiciels</a></li>
+				<li><a href="inspiration.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Mon Inspiration</a></li>
+				<li><a href="contact.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Contactez-Moi</a></li>
+			</ul>
+		</div>
+		<br/>
+		
+		<div id="contenu">
+			<h1>Techniques d'attaques:</h1>
+			<div id="sommaire">
+				<ul>
+					<li><a href="#DoS">Denial of Service</a></li>
+					<li><a href="#Sniffing">Sniffing</a></li>
+					<li><a href="#Scanning">Scanning</a></li>
+					<li><a href="#SE">Social Engineering</a></li>
+					<li><a href="#Cracking">Cracking</a></li>
+					<li><a href="#Spoofing">Spoofing</a></li>
+					<li><a href="#Mim">Man In The Middle</a></li>
+					<li><a href="#Hijacking">Hijacking</a></li>
+					<li><a href="#BOF">Buffer OverFlow</a></li>
+				</ul>
+			</div>
+		
+			<hr/><br/>	
+			<a id="DoS"/>
+				<h2>Denial of Service:</h2>
+				<p>
+					Une attaque par déni de service (en anglais Denial of Service, DoS) est une attaque qui a pour but de mettre hors jeu le système qui est visée. Ainsi, la victime se voit dans l'incapacité d'accéder à son réseau. Ce type d'attaque peut aussi bien être utilisé contre un serveur d'entreprise qu'un particulier relié à internet. Tous les systèmes d'exploitations sont également touchés : Windows, Linux, Unix... 
+					<br/><br/>
+					<img src="images/deni.jpg" alt="déni de service">
+					<br/>
+				</p>
+				<h3>Comment s'en protéger ?</h3>
+				<p>	
+					Etre à jour dans les correctifs logiciels (patch).<br/>
+					<a href="http://windowsupdate.microsoft.com">http://windowsupdate.microsoft.com</a><br/>
+					<a href="http://www.securityfocus.com">http://www.securityfocus.com</a>
+				</p>
+				<br/><br/>
+				
+			<a id="Sniffing"/>
+				<h2>Sniffing:</h2>
+				<p>		
+					Le reniflage (en anglais Sniffing) est une technique qui consiste à analyser le trafic réseau.
+					Lorsque deux ordinateurs communiquent entre eux, il y a un échange d'informations (trafic). Mais, il est
+					toujours possible qu'une personne malveillante récupère ce trafic. Elle peut alors l'analyser et y trouver
+					des informations sensibles.<br/>
+					Exemple: Soit une entreprise possédant 100 ordinateurs reliés entre eux grâce à un hub.
+					Maintenant, si un pirate écoute le trafic réseau entre 8h et 10h (heure de connection du personnel), il
+					pourra lire tous les noms d'utilisateurs ainsi que leur mot de passe.
+					<br/><br/>
+					<img src="images/sniffing.jpg" alt="sniffing">
+					<br/>
+				</p>
+				<h3>Comment s'en protéger?</h3>
+					<p>
+						<ul>
+							<li>Utiliser de préférence un switch (commutateur) plutôt qu'un hub.</li>
+							<li>Utiliser des protocoles chiffrés pour les informations sensibles comme les mots de passe.</li>
+							<li>Utiliser un détecteur de sniffer.</li>
+						</ul>
+					</p>		
+					<br/><br/>
+					
+			<a id="Scanning"/>
+				<h2>Scanning:</h2>
+				<p>
+					Le scanning consiste à balayer tous les ports sur une machine en utilisant un outil appelé scanner. Le scanner envoie 
+					des paquets sur plusieurs ports de la machine. En fonction de leurs reactions, le scanner va en déduire si les ports sont ouverts.
+					C'est un outil très utile pour les hackers. Cela leur permet de connaitre les points faibles d'une machine et ainsi de savoir par
+					où ils peuvent attaquer. D'autant plus que les scanners ont évolué. Aujourd'hui, ils peuvent déterminer le système d'exploitation
+					et les applications associées aux ports. 
+					<br/><br/>
+					<img src="images/scanning.jpg" alt="scanning">
+					<br/>
+				</p>
+				<h3>Comment s'en protéger?</h3>
+					<p>
+						<ul>
+							<li>Scanner sa machine pour connaitre les ports ouverts</li>
+							<li>Surveiller les ports ouverts avec un <a href="protections.htm#firewall">firewall</a> et fermer ceux qui ne sont pas utiles</li>
+							<li>Utiliser un <a href="protections.html#IDS">IDS (détecteur d'intrusion)</a> ou mieux un IPS (prévention d'intrusion)</li>
+						</ul>
+					</p>
+				<br/><br/>
+				
+			<a id="SE"/>
+			<h2>Social Engineering:</h2>
+			<p>
+				Le social engineering est l'art de manipuler les personnes. Il s'agit ainsi d'une technique permettant
+				d'obtenir des informations d'une personne, qu'elle ne devrait pas donner en temps normal, en lui donnant des bonnes
+				raisons de le faire. Cette technique peut se faire par téléphone, par courrier électronique, par lettre écrite, ...
+				Cette attaque est souvent sous estimée puisqu'elle n'est pas d'ordre informatique. Pourtant, une attaque
+				par social engineering bien menée peut se réveler très efficace. Elle n'est donc pas à prendre à la légère.
+				<br/><br/>
+				<img src="images/SE.jpg" alt="social engineering">
+				<br/>
+			</p>	
+			<h3>Comment s'en protéger?</h3>
+				<p>
+					<ul>
+						<li>Avoir du bon sens pour flairer l'arnaque</li>
+						<li>Se méfier des personnes que l'on ne connaît pas</li>
+					</ul>
+				</p>
+				<br/><br/>
+				
+			<a id="Cracking"/>
+			<h2>Cracking:</h2>
+			<p>
+				Le crackage des mots de passe consiste à deviner le mot de passe de la victime. Malheureusement, beaucoup
+				d'utilisateurs mal avertis de cette technique mettent des mots de passe évidents comme leur propre prénom ou
+				ceux de leurs enfants. Ainsi, si un pirate, qui a espionné sa victime auparavant, teste quelques mots de passe comme le 
+				prénom des enfants de la victime, il aura accés a l'ordinateur. D'où l'utilité de mettre des bons mots de passe.
+				Mais même les mots de passe les plus robustes
+				peuvent etre trouvés à l'aide de logiciels spécifiques appelés craqueur (John the ripper,  L0phtCrack pour Windows).<br/>
+				<strong>Comment ça marche?</strong><br/>
+				Les craqueurs de mots de passe s'appliquent souvent à un fichier contenant le nom des utilisateurs ainsi que leur mot de passe encrypté.
+				Ces fichiers sont nécessaires pour permettre l'authentification sur un système. L'encryptage des mots de passe s'effectue à l'aide d'une
+				fonction de hachage. Les fonctions de hachage sont des fonctions univoques, c'est-à-dire qu'il est impossible de les inverser
+				pour décrypter un mot de passe encrypté. Une autre particularité importante des fonctions de hachage est que deux mots de passe 
+				différents auront forcément un hachage différent. Ainsi, il est impossible de décrypter un mot de passe encrypté.
+				En revanche, il est possible d'encrypter un mot au moyen de cette fonction et de comparer le résultat avec le mot de passe encrypté.
+				S'il y a correspondance, on a deviné le mot de passe. Mais, il est fastidieux d'encrypter des milliers de mots pour trouver 
+				les mots de passe. C'est là qu'intervient l'utilité d'un craqueur.<br/>
+				Ces logiciels peuvent tester des mots de passe selon trois méthodes:
+			</p>
+			<dl>
+				<dt>Attaque Par Dictionnaire:</dt>
+					<dd>	
+						le logiciel teste tous les mots de passe stockés dans un fichier texte.<br/>
+						Cette méthode est redoutable car en plus de sa rapidité, elle aboutit généralement puisque les mots de passe
+						des utilisateurs lambda sont souvent des mots existants.
+						<br/><br/>
+						<img src="images/cracking.jpg" alt="craquage de mot de passe">
+						<br/>
+					</dd>
+				<dt>Attaque Hybride:</dt>
+					<dd>
+						le logiciel teste tous les mots de passe stockés dans un fichier texte et y ajoute des combinaisons.
+							Par exemple: thomas01.
+							Cette méthode est redoutable également puisque beaucoup de personnes mettent des chiffres apres leur mot de passe
+							pensant bien faire.
+					</dd>
+				<dt>Attaque Brute-Force:</dt>
+					<dd>	
+						le logiciel teste toutes les combinaisons possibles. Ainsi ce genre d'attaque aboutit à chaque fois.
+						Heureusement, tester toutes les combinaisons prends beaucoup de temps. D'où l'utilité de changer de mots de passe régulièrement.
+					</dd>
+			</dl>
+			<p><br/>	
+				Le fichier contenant les mots de passes encriptés est donc à protéger. Chaque système d'exploitation à sa méthode. Expliquons les méthodes employées par Windows NT, et Unix.
+			</p>
+			<dl>
+				<dt>Windows NT:</dt>
+					<dd>
+						Ce fichier s'appelle la base SAM. Ce fichier est vérouillé par le noyau dès son démarrage. Ainsi, un utilisateur ne peut pas
+						copier le fichier, ni le lire. Mais, il existe des méthodes permettant de se le procurer.
+					<dd/>
+				<dt>Unix:</dt>
+					<dd>
+						Ce fichier est en fait séparer en deux fichiers shadow et passwd. Le fichier passwd contient les noms d'utilisateurs accessible
+						par tout le monde, et le fichier shadow contenant les mots de passe, accessible uniquement par root.
+					</dd>
+			</dl>
+			<br/>
+		
+			<h3>Comment s'en protéger?</h3>
+			<p>
+				<ul>
+					<li>Choisir un mot de passe robuste et ne pas l'écrire sur un support(papiers,...) puisque rien n'empêche un pirate de fouiller les poubelles par exemple.</li>
+						<p>
+						Un mot de passe robuste doit satisfaire à plusieurs critères:
+						<ol>
+							<li>plus de 8 caractères</li>
+							<li>utiliser la casse (majuscule/minuscule)</li>
+							<li>utiliser des chiffres</li>
+						</ol>
+						<br/>
+						Une bonne méthode consiste à apprendre par coeur une phrase et à prendre les premieres lettres
+						du mot.
+						<br/><br/>
+						</p>
+					<li>Changer régulièrement de mot de passe pour éviter que ce dernier ne soit trouvé par un tel outil.</li>
+				</ul>
+			</p>
+			<br/><br/>
+			
+			<a id="Spoofing"/>
+			<h2>Spoofing:</h2>
+			<p>
+				L'usurpation (en Anglais Spoofing) consiste à se faire passer pour quelqu'un d'autre. Il y a beaucoup d'utilité
+				pour un pirate d'usurper une identité. Voici quelques exemples d'usurpations, mais ce ne sont pas les seules:
+			</p>
+				<dl>
+					<dt>Usurpation de l'adresse IP:</dt>
+					<dd>
+						Une adresse IP correspond en gros à l'adresse postale d'un ordinateur. Ainsi, en changeant d'adresse IP, on peut
+						se faire passer pour un autre ordinateur et obtenir des informations sensibles qui ne nous sont pas destinées.
+					</dd>
+					<dt>Usurpation de l'adresse E-Mail:</dt>
+					<dd>
+						Lors de la réception d'un courrier électronique, nous pouvons lire l'adresse de l'expéditeur. Mais, il est 
+						possible de changer l'adresse. Ainsi, un pirate peut vous envoyer un mail en usurpant l'adresse de votre 
+						supérieur.
+					</dd>
+					<dt>Usurpation WEB:</dt>
+					<dd>
+						Ceci est le principe du <a href="menaces.html#Phishing">phishing</a>
+					</dd>
+				</dl>
+			<p><br/>
+				Généralement, quand on parle d'usurpation ou de spoofing, on parle de l'usurpation de l'adresse IP.
+			</p>
+			<br/>
+			<h3>Comment s'en protéger?</h3>
+			<p>
+				On ne peut pas empêcher quelqu'un d'usurper une identité. En revanche, il faut à tout prix être sûr de l'identité
+				de la machine avec laquelle on dialogue.<br/>
+				Utiliser des <a href="protections.html#SSH">protocoles sécurisés</a> comme ssh qui empêche le spoofing.
+			</p>
+			<br/><br/>
+			
+		<a id="Mim"/>
+		<h2>Man in the Middle:</h2>
+		<p>
+			Man in the Middle signifie l'homme du milieu. Cette attaque a pour but de s'insérer entre deux ordinateurs qui communiquent.
+			Soient deux ordinateurs A et B voulant dialoguer. Maintenant, si un pirate décide de se faire passer pour l'ordinateur A auprès de B
+			et de B auprès de A, ainsi, toute communication vers A ou B passera par le pirate, l'homme du milieu.
+			<br/><br/>
+			<img src="images/mim.jpg" alt="man in the middle">
+			<br/>
+		</p>
+			<h3>Quels sont les risques?</h3>
+		<p>
+			Le pirate peut donc intercepter tout le trafic, à savoir les informations sensibles comme les mots de passe. Mais, pire encore,
+			le pirate peut modifier le trafic avant de le renvoyer vers l'autre ordinateur.<br/>
+			Ainsi, si vous voulez commander un livre sur internet à 10 euros, et que le pirate change votre commande, vous pouvez très vite vous retrouver
+			à dépenser des milliers d'euros.
+		</p>
+			
+		<h3>Comment s'en protéger?</h3>
+			<ul>
+				<li>Sur Internet, n'achetez que sur des sites sécurisés.</li>
+					<p>	
+						Les sites sécurisés commencent par <a href="protections.html#SSH">"https"</a> au lieu de "http". Il y a également un 
+						cadenas en bas de votre navigateur.
+					</p>
+				<li>Sur un réseau, utilisez des <a href="protections.html#SSH">protocoles sécurisés</a>.</li>
+			</ul>
+		<br/><br/>
+		
+		<a id="Hijacking"/>
+		<h2>Hijacking:</h2>
+			<p>		
+				Un pirate peut craquer (cible) le mot de passe de la session. Mais si vous choisissez un mot de passe robuste, cela lui prendra
+				beaucoup de temps. Alors pourquoi ne pas attendre que la victime se connecte sur la session et prendre sa place ? Ainsi, le pirate
+				contourne le processus d'authentification. Et justement, il le fait, c'est le principe du détournement de session (en anglais hijacking).
+				Ensuite, s'il veut pouvoir dialoguer avec le serveur, il doit mettre hors-jeu la victime. Pour cela, il peut lui lancer une attaque
+				par déni de service (cible). Mais, il peut aussi se mettre en écoute et enregistrer tout le trafic en espérant recueillir des informations 
+				sensibles comme des mots de passe.
+				<br/><br/>
+				<img src="images/hijacking.jpg" alt="détournement de session">
+				<br/>
+			</p>
+			<h3>Quels sont les risques?</h3>
+			<p>
+				Si le pirate possède des informations sensibles comme un nom d'utilisateur et son mot de passe, il pourra alors revenir sur le système lorsqu'il
+				le souhaitera a l'aide d'une <a href="menaces.html#backdoor">backdoor</a>. Pire encore, si la machine possède des liens d'approbation, l'attaquant 
+				en bénéficiera. Et il sera dur d'identifier que le système est compromis puisqu'il utilise le compte d'une personne autorisée. D'où l'importance 
+				de détecter cette attaque.
+			</p>
+			
+			<h3>Comment s'en protéger?</h3>
+			<ul>
+				<li>S'assurer que la communication est <a href="protections.html#SSH">sécurisée</a></li>
+			</ul>
+		<br/><br/>
+		
+		<a id="BOF"/>
+		<h2>Buffer OverFlow:</h2>
+		<p>
+			Un débordement de tampon (en anglais Buffer OverFlow ou BoF) est une attaque tres utilisée des pirates.
+			Cela consiste à utiliser un programme résidant sur votre machine en lui envoyant plus de données qu'il n'est censé en recevoir afin que 
+			ce dernier exécute un code arbitraire.
+			Il n'est pas rare qu'un programme accepte des données en paramètre. Ainsi, si le programme ne vérifie pas la longueur de la chaîne passée 
+			en paramètre, une personne malintentionnée peut compromettre la machine en entrant une donnée beaucoup trop grande.
+		</p>
+		<h3>Comment ça marche?</h3>
+		<p>
+			Les données entrées par l'utilisateur sont stockées temporairement dans une zone de la mémoire appelée tampon (en anglais buffer). 
+			Prenons l'exemple d'un logiciel qui demande votre prénom. En admettant que le programme prévoit
+			dix caractères pour ce dernier et que l'utilisateur en mette vingt. Il y aura débordement de tampons puisque les dix derniers
+			caractères ne seront pas stockés dans la bonne variable mais dans le tampon pouvant provoquer un crash de la machine. Mais, un pirate 
+			exploite cette faille malignement et parvient à se procurer d'un accés à la machine avec des droits identiques à celle du logiciel.
+			Pour comprendre comment exploiter cette faille, visiter l'article de référence en matière de débordement de tampon :
+			<a href="http://www-cse.ucsd.edu/classes/sp05/cse127/Smash.htm">Smashing the stack for fun and profit</a> par Alephone, Phrack 49.
+			<br/><br/>
+		</p>
+		<h3>Comment s'en protéger ?</h3>
+		<p>	
+			Malheureusement, vous ne pouvez pas y faire grand chose. En effet, le principe de cette attaque est différent des autres, dans le sens 
+			où ce n'est pas la protection de l'ordinateur qui vous protégera d'un débordement de tampon puisqu'elle utilise le manque de rigueur
+			de la part des programmeurs de logiciels en raison du manque de temps.
+		</p>
+			<ul id="enum">
+				<li>Tenez vous au courant concernant les failles des logiciels et télécharger les patchs appropriés</li>
+				<p><a href="http://www.securityfocus.com">http://www.securityfocus.com</a></p>
+			</ul>
+		</div>
+	</body>
+</html>

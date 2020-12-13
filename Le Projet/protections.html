@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <title>Les Protections</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href="style.css" />
+	  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    </head>
+	
+	<body>
+		<div id="menu">
+			<table>
+				<tr><td width="20%"><a href="http://www.isimm.rnu.tn"> 
+					<img src="images/logoisimm.png"  class="logo" width=110 height=90 align="left"/></a><p id="titre2">Bienvenue sur ce site dédié au piratage informatique dans le cadre d'un projet de l'ISIMM (LA 1 INFO).</p><br/><p id="titre2">Ce site a été créé par Houssem Sakli.</p>
+					<a href="https://www.facebook.com/houssem.sakli.10"> <img style="margin-left: 20%;" class="logo" src="images/logofb.png" width="30" height="30" /></a>
+					<a href="https://www.youtube.com/channel/UCbP1sai0Oy_XeheUQ_zgwWw"> <img style="margin-left: 3%;" class="logo" src="images/logoyoutube.png" width="30" height="30" /></a>
+					<a href="https://www.instagram.com/houssemsakli/"> <img style="margin-left: 3%;" class="logo" src="images/logoinsta.png" width="30" height="30" /></a>
+					<a href="https://twitter.com/houssemsaklii"> <img style="margin-left: 3%;" class="logo" src="images/logotwitter.png" width="30" height="30" /></a>
+					</td>
+					<td width="60%"> <p id="titre" align="center"><span> Le Piratage Informatique </span></p> </td>
+					<td width="20%"> <img src="images/logo2.jpg" class="logo" width=300 height=190 align="right"/>
+				</tr>
+			</table>
+		
+			<ul>
+				<li><a href="accueil.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Accueil</a></li>
+				<li><a href="menaces.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Menaces</a></li>
+				<li><a href="techniques.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Techniques</a></li>
+				<li id="selected"><a href="protections.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Protections</a></li>
+				<li><a href="logiciels.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Logiciels</a></li>
+				<li><a href="inspiration.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Mon Inspiration</a></li>
+				<li><a href="contact.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Contactez-Moi</a></li>
+			</ul>
+		</div>
+		<br/>
+		
+		<div id="contenu">
+			<h1>Les Protections:</h1>
+			<div id="sommaire">
+				<ul>
+					<li><a href="#FireWall">FireWall</a></li>
+					<li><a href="#antivirus">Antivirus</a></li>
+					<li><a href="#antispyware">Antispyware</a></li>
+					<li><a href="#IDS">Détecteur d'Intrusions</a></li>
+					<li><a href="#SSH">Cryptage</a></li>
+				</ul>
+			</div>
+			<hr/><br/>
+			<a id="FireWall"/>
+			<h2>FireWall:</h2>
+			<p>
+				Un pare-feu (en anglais FireWall) est un système permettant de séparer un réseau interne d'un réseau externe (souvent l'internet).
+				Il permet de filtrer les communications dans les deux sens et ainsi protéger le réseau interne des éventuelles menaces provenant de
+				l'extérieur. En effet, pour pénétrer un réseau, un pirate dispose de plusieurs <a href="techniques.html">techniques</a>. Mais, la plupart
+				consiste à envoyer des paquets sur le réseau et exploiter les failles. Le rôle du firewall est de ne laisser passer que les paquets non 
+				suspects; les paquets suspects étant éliminés.<br/>
+				Les pare-feux logiciels permettent aussi d'analyser le comportement des logiciels sur votre ordinateur, et permettent d'empêcher tel programme  
+				d'accéder à internet, ou au contraire d'autoriser tel autre.
+			</p>
+			<h3>Quel choix adopter?</h3>
+	
+			<p>Il existe deux solutions de firewall:</p>
+				<ul>
+					<li>FireWall "Hard"</li>
+					<li>FireWall "Soft (Logiciel)"</li>
+				</ul>
+				
+			<p>
+				Ces solutions dépendent de ce que vous voulez protéger, pour un accès personnel à internet 
+				la meilleure solution est de choisir un firewall soft. Vous pouvez opter, par exemple, pour <a href="https://www.zonealarm.com/fr">Zone Alarme</a>, ou pour <a href="https://www.gfi.com/">GFI Software</a>.
+			</p>
+			<br/><br/>
+			
+			<a id="antivirus">
+			<h2>Antivirus:</h2>
+			<p>Un antivirus est un logiciel qui a pour but de détecter et de supprimer les virus d'un système informatique.<p/>
+			<h3>Comment fonctionne-t-il?</h3>
+			<p>Afin de mener à bien sa mission, l'antivirus utilise différentes méthodes:</p>
+			<dl>
+				<dt>Recherche par la signature:</dt>
+					<dd>
+						Cette méthode consiste à analyser le disque dur à la recherche de la signature du virus.
+						La signature est un morceau de code du virus qui permet de l'identifier.
+						L'antivirus compare les données du disque dur avec sa base de données.
+						Celle-ci doit donc être régulièrement mise à jour pour pouvoir détecter les virus les plus récents. Cette méthode est la plus utilisée.
+					</dd><br/>
+			
+				<dt>L'analyse heuristique:</dt>
+					<dd>
+						Cette méthode consiste à simuler le comportement de logiciels présents sur votre ordinateur. 
+						Cela permet à l'antivirus de repérer des logiciels susceptibles d'avoir un comportement agressif.
+						Cette méthode ne nécessite pas de mise à jour (à moins qu'une version plus récente du logiciel soit disponible).
+						Cette méthode peut provoquer des fausses alertes.
+					</dd><br/>
+			
+				<dt>L'analyse du comportement:</dt>
+					<dd>
+						Cette méthode consiste à surveiller en permanence le comportement des logiciels actifs, ainsi que les fichiers crées ou modifiés. 
+						Cette méthode ne doit jamais être utilisée seule car l'antivirus intervient après que le mal soit fait. Elle est cependant recommandée pour tous les ordinateurs connectés à internet.
+					</dd>
+			</dl>
+			<p><br/>
+				Un antivirus bien configuré utilise une combinaison de ces méthodes pour protéger un ordinateur des virus. <br/>
+				Lorsque l'antivirus a détecté un virus, il offre trois possibilités à l'utilisateur:
+			</p>
+	
+			<dl>
+				<dt>1. Réparer le fichier:</dt>
+					<dd>
+						Dans certain cas, l'antivirus peut réparer un fichier infecté. Cela va dépendre du fichier infecté, du comportement du virus ou encore de la façon dont le virus se duplique.
+						Généralement l'antivirus va tenter de réparer le fichier avant de faire quoi que ce soit d'autre.
+					</dd><br/>
+				<dt>2. Supprimer le fichier:</dt>
+					<dd>
+						Si l'antivirus n'est pas capable de réparer le fichier, il peut le supprimer. Choisissez cette option uniquement si le fichier n'est pas important, sinon (ou si vous ne savez pas) préférez la mise en quarantaine. 
+					</dd><br/>
+	
+				<dt>3. La mise en quarantaine:</dt>
+					<dd>
+						L'antivirus place le fichier dans un dossier protégé et isolé par l'antivirus. Cela permet à l'antivirus d'attendre qu'une méthode soit diffusée pour réparer des fichiers infectés par tel ou tel virus.
+						En général l'antivirus tente de réparer les fichiers mis en quarantaine après chaque mise à jour.
+					</dd>
+			</dl>
+			<br/><br/>
+			
+			<a id="antispyware">			
+			<h2>Anti-Spyware:</h2>
+			<p>
+				Un Anti-spyware est un logiciel qui permet de rechercher et de supprimer les spywares présents sur un ordinateur.
+			</p>
+			
+			<h3>Comment fonctionne t-il?</h3>
+			<p>Un spyware étant toujours actif, l'anti-spyware va comparer l'ensemble des processus actifs du système avec une base de données qu'il faut donc mettre à jour régulièrement.</p>
+			<h3>Quelques anti-spyware:</h3>
+			<p>
+				Il est conseillé d'utiliser plusieurs logiciels anti-spyware, un seul ne détectant pas la totalité des spywares. </br>
+				Voici quelques anti-spywares gratuits:
+			</p>
+			<ul>
+				<li>Spybot Search & Sestroy</li>
+				<li>Ad-Aware</li>
+				<li>Spyware Blaster</li>
+				<li>Hijackthis</li>
+			</ul>	
+			<h3>Le cas de Hijackthis: </h3>
+			<p>
+				Hijackthis est un anti-spyware et un anti-hijacker gratuit, reconnu et très efficace, cependant son utilisation comporte un risque
+				puisque hijackthis scanne le système et renvoie les résultats sous forme d'un log, ce log comporte un certain nombre d'informations vitales de votre système,
+				et hijackthis vous permet de les supprimer. Une mauvaise utilisation peut donc endommager irrémédiablement votre système !<br/>
+				Il est donc conseillé d'utiliser hijackthis en dernier recours, si toutes les autres méthodes de protections n'ont rien donné. Il faut alors scanner votre système
+				grâce à hijackthis, puis analyser les résultats pour enfin supprimer les éléments néfastes. Voir <a href="http://www.zebulon.fr/articles/HijackThis.php">ici</a>
+				pour un tutorial sur l'analyse du log d'hijackthis, voici également un <a href="textes/hijackthis.txt">exemple de log</a>. Certains sites, comme <a href="https://seolyzer.io/fr/">celui-ci</a> proposent
+				également un analyseur du log en ligne. En cas de doute, postez votre log sur les forums de discussions sur ce sujet, il y aura toujours quelqu'un pour vous aider.
+			</p>
+			<br/><br/>
+			
+			<a id="IDS"/>
+			<h2>Détecteur d'intrusions:</h2>
+			<p>
+				Un détecteur d'intrusions (en anglais Instrusive Detection System) est un système capable de détecter une tentative d'intrusion sur votre
+				système. Il stoppe la majeure partie des attaques recensées. Aussi est-il important de le mettre à jour régulièrement.
+				L'IDS écoute le trafic réseau et analyse les paquets pour prévenir des actions suspectes et les arrêter. Les IDS actuels reconnaissent
+				les signaux d'intrusions suivants: 
+			</p>
+				<ul>
+					<li><a href="techniques.html#DoS">Déni de Services</a></li>
+					<li><a href="menaces.html#backdoor">Backdoor</a></li>
+					<li><a href="techniques.html#Trojan">chevaux de troie</a></li>
+					<li><a href="techniques.html#BoF">attaque par débordement de tampons</a></li>
+					...
+				</ul>
+			<p>
+				L'IDS est un élément essentiel pour un réseau sécurisé.
+			</p>
+			<br/><br/>
+			
+			<a id="SSH"/>
+			<h2>Cryptage:</h2>
+			<p>
+				Internet est un réseau non sécurisé. Et il est tellement grand, qu'il est inimaginable de le sécuriser. Ainsi, dès que l'on souhaite
+				envoyer des informations confidentielles à une autre personne, il faut crypter le message. Il existe deux grands types de chiffrement:
+			</p>	
+			<dl>
+				<dt>Le chiffrement à clé privée (dit aussi symétrique):</dt>
+					<dd>
+						Le chiffrement à clé privée consiste à utiliser la même clé pour crypter et décrypter le message.<br/>
+						Les personnes voulant communiquer et eux-seules doivent posséder la clé pour pouvoir crypter et décrypter les messages. Dès lors se pose
+						le problème de l'échange de la clé. <br/>
+						Exemple: DES
+					</dd><br/>
+				<dt>Le chiffrement à clé publique (dit aussi asymétrique):</dt>
+					<dd>
+						Le chiffrement à clé publique consiste en l'utilisation d'une clé différente pour crypter ou décrypter. Le propriétaire de la clé
+						privée donne la clé publique à tout le monde et garde l'autre clé. Ainsi, on peut lui envoyer des messages chiffrés avec la clé publique
+						mais personne peut le décrypter à part le propriétaire à l'aide de sa clé privée. Avec ce chiffrement, le problème de l'échange
+						de clé ne se pose plus. Mais, la communication ne peut se faire que dans un sens, il faudrait alors deux autres clés pour
+						dialoguer dans l'autre sens.<br/>
+						Exemple: RSA
+					</dd>
+			</dl>
+			<p><br/>
+				Pour pouvoir dialoguer sur un réseau, on utilise des protocoles de communication.
+			</p>	
+			<h3>Qu'est-ce qu'un protocole de communication?</h3>
+			<p>
+				Un protocole est une méthode standardisée permettant la communication entre deux processus. Ainsi, si les processus se trouvent
+				sur deux ordinateurs différents et que la méthode n'est pas sécurisée, une personne malintentionnée pourra tout voir en clair.
+				Il est donc important de choisir des protocoles sécurisés.
+			</p>
+			<h3>Quels protocoles choisir?</h3>
+			<p>
+				Tout dépend de la communication que vous voulez entreprendre. Si cette dernière n'est absolument pas confidentielle, autant
+				choisir un protocole non sécurisé, d'autant plus que la rapidité ne sera pas la même.
+			</p>
+				<ul>
+					<li>telnet</li>
+					<li>rlogin</li>
+					<li>rcp</li>
+					<li>rsh</li>
+				</ul>
+			<p>
+				Lors d'envois d'informations confidentielles, il est impératif de choisir un protocole sécurisé. Le nom des protocoles sécurisés
+				commencent souvent par un "s" comme Secure (sécurisé).
+			</p>
+				<ul>
+					<li>stelnet</li>
+					<li>slogin</li>
+					<li>scp</li>
+					<li>ssh</li>
+				</ul>
+			<p>	
+				Au protocole d'origine, on a rajouté la couche SSL (Secure Sockets Layers). Cette couche garantit l'identité de la personne avec qui 
+				on parle, et garantit également que les informations seront cryptées entre l'expéditeur et le destinataire. Ainsi, un pirate ne pourra
+				plus avoir recours au <a href="techniques.html#Sniffing">sniffing</a> et au <a href="techniques.html#Spoofing">spoofing</a><br/>.
+			</p>	
+		</div>
+	</body>
+</html>

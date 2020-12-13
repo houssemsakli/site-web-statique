@@ -1,0 +1,25 @@
+Exemple de viroax
+
+
+Salut tout le monde, on m'a forwardé ce message aujourd'hui, alors ATTENTION
+ 
+Certains clients et amis de l'entreprise ont trouvé par hasard un fichier du nom de 
+SULFNBK.EXE : c'est un fichier qui est programmé pour s'activer le 1° Juin 2001. Les 
+systèmes antivirus ne le détectent pas parce qu'il n'est pas encore activé. Mais c'est un 
+parasite, c'est à dire qu'il entre dans votre machine sans être détecté, comme s'il faisait 
+partie d'un courrier.
+ 
+Faites un clic sur le bouton DEMARRER, choisissez RECHERCHER, puis FICHIERS OU DOSSIER 
+et écrivez le nom du fichier, recherchez-le dans toutes les mémoires. Si vous le trouvez NE 
+L'OUVREZ PAS ! (l'icône est fait de lettres noires peu lisibles qui disent SULF NBK).
+ 
+Cliquez sur l'icône avec le bouton droit et faites SUPPRIMER. Vous aurez droit aux 
+avertissements habituels de Windows comme quoi effacer un programme risque d'affecter 
+Windows. Ignorez cet avertissement et effacez ce truc. Ensuite, VIDEZ LA CORBEILLE, car il 
+peut aussi s'activer depuis là.
+ 
+CE N'EST PAS UN GAG !!!
+ 
+Avertissez les gens à qui vous avez forwardé des messages venant d'on ne sait pas trop où, 
+et qui pourrait les recevoir sur leur PC, le plus vite possible, afin qu'ils puissent éviter que le 
+virus ne s'active le 1er juin. Rappelez-vous, il s'appelle SULFNBK.EXE

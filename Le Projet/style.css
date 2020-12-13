@@ -1,0 +1,184 @@
+body{
+	background: linear-gradient(to top right, #9999ff -40%, #ffffff 92%);
+}
+
+#menu{
+	background: linear-gradient(to right, #ffffcc -21%, #75aeb9 25%);
+	border: 4px groove #06323F;
+	float:left;
+	width:100%;
+	line-height:normal;
+}
+
+#menu ul {
+	margin:0;
+	padding:10px 10px 0;
+	list-style:none;
+}
+
+#menu li {
+	float:left;
+	border: 3px outset #E3E335;
+	background-color:#06323F;
+	margin:0;
+	padding:0 0 0 28px;
+	box-shadow: 5px -7px 3px olive;
+}
+
+#menu ul a {
+	float:left;
+	display:block;
+	padding:9px 28px 9px 4px;
+	text-decoration:none;
+	font-weight:bold;
+	font-family: Verdana, sans-serif;
+	color:#E3E335;
+}
+
+#menu a:hover{
+	color:#A95BD2;
+}
+
+#menu li:hover{
+	border: 3px inset #A95BD2;
+	box-shadow: 5px -7px 3px #A95BD2;
+	background-color: #413D8D;
+}
+
+#menu #selected a{
+	color:#A95BD2;
+}
+
+#menu #selected {
+	border: 3px inset #A95BD2;
+	box-shadow: 5px -7px 3px #A95BD2;
+	background-color: #413D8D;
+}
+
+#titre2{
+	font-family: OCR A Std, monospace;
+	font-size: 11px;
+	margin-left: 0px;
+	text-indent: 0;
+}
+
+img.logo {
+	border: 0px;
+}
+
+img {
+	border: 3px solid blue;
+}	
+
+video {
+	border: 3px solid yellow;
+	margin-left: -10mm;
+}	
+
+p {
+	text-indent: 1cm;
+	margin-left: 25mm;
+	font-family: Andale Mono, monospace;
+	text-align: justify;
+}
+
+#titre {
+	text-indent: 0cm;
+	font-size: 16mm;
+	font-family: Jazz LET, fantasy;
+	background: linear-gradient(to right, #413D8D 0%, #75aeb9 100%);
+	text-align: center;
+	color: #000066;
+
+}
+
+
+h1 {
+	font-size: 9mm;
+	font-family: "Source Sans Pro", sans-serif;
+	color: #397649;
+}
+
+h2 {
+	text-indent: 15mm;
+	font-style: oblique;
+	font-size: 6mm;
+	font-family: Andale Mono, monospace;
+	color: #95444C;
+}
+
+h3 {
+	text-indent: 20mm;
+	font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+hr {
+	text-indent: 0mm;
+}
+
+#contenu ul, #contenu ol, #contenu dl {
+	margin-left: 25mm;
+}
+
+dt {
+	text-decoration: underline;
+	font-family: Andale Mono, monospace;
+}
+
+dd {
+	text-indent: 1cm;
+	font-family: Andale Mono, monospace;
+}
+
+a,li{
+	font-family: Andale Mono, monospace;
+}
+
+label{
+	font-weight: bold;
+}
+
+legend{
+	font-family: Andale Mono, monospace;
+	font-weight: bold;
+	font-size: 20px;
+	color: #695F41;
+	background-color: #ECDFB7;
+	border: 6px ridge #B09953;
+}
+
+fieldset{
+	border: 6px ridge #B09953;
+	background: linear-gradient(to right top, #f3e8d9, #e0d4c3, #cdc0ad, #baac98, #a89983);
+}
+
+input,select,textarea{
+	border: 3px groove #9969C8;
+	background: linear-gradient(to bottom, #faf4fc, #f2e9f5, #e9dded, #e1d2e6, #d8c7df);
+}
+
+.bouton{
+	border: 6px outset #E9DF7E;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	color: #76844F;
+	background: linear-gradient(to right bottom, #e9e27b, #d4cd70, #bfb865, #aaa45a, #969050);
+	box-shadow: 6px -8px 3px #B1C579;
+}
+
+.bouton:hover{
+	border: 6px inset #B17223;
+	color: #B1C579;
+	background: linear-gradient(to right bottom, #5e3b12, #724816, #875419, #9d621d, #b36f21);
+	box-shadow: 6px -8px 3px #B69061;
+}
+
+#sommaire ul, #sommaire ol{
+	margin-left: 0cm;
+	color: #86C54D;
+}
+
+#sommaire a{
+	color: #89B54C;
+	font-family: 'Arial Black', Gadget, sans-serif;
+}

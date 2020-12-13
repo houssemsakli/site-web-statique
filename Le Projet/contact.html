@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <title>Contactez-Moi</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href="style.css" />
+	  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    </head>
+	
+	<body>
+		<div id="menu">
+			<table>
+				<tr><td width="20%"><a href="http://www.isimm.rnu.tn"> 
+					<img src="images/logoisimm.png"  class="logo" width=110 height=90 align="left"/></a><p id="titre2">Bienvenue sur ce site dédié au piratage informatique dans le cadre d'un projet de l'ISIMM (LA 1 INFO).</p><br/><p id="titre2">Ce site a été créé par Houssem Sakli.</p>
+					<a href="https://www.facebook.com/houssem.sakli.10"> <img style="margin-left: 20%;" class="logo" src="images/logofb.png" width="30" height="30" /></a>
+					<a href="https://www.youtube.com/channel/UCbP1sai0Oy_XeheUQ_zgwWw"> <img style="margin-left: 3%;" class="logo" src="images/logoyoutube.png" width="30" height="30" /></a>
+					<a href="https://www.instagram.com/houssemsakli/"> <img style="margin-left: 3%;" class="logo" src="images/logoinsta.png" width="30" height="30" /></a>
+					<a href="https://twitter.com/houssemsaklii"> <img style="margin-left: 3%;" class="logo" src="images/logotwitter.png" width="30" height="30" /></a>
+					</td>
+					<td width="60%"> <p id="titre" align="center"><span> Le Piratage Informatique </span></p> </td>
+					<td width="20%"> <img src="images/logo2.jpg" class="logo" width=300 height=190 align="right"/>
+				</tr>
+			</table>
+
+			<ul>
+				<li><a href="accueil.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Accueil</a></li>
+				<li><a href="menaces.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Menaces</a></li>
+				<li><a href="techniques.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Techniques</a></li>
+				<li><a href="protections.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Protections</a></li>
+				<li><a href="logiciels.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Les Logiciels</a></li>
+				<li><a href="inspiration.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Mon Inspiration</a></li>
+				<li id="selected"><a href="contact.html"><img src="images/logohacking.png" align="left" class="logo" width=20 height=20>Contactez-Moi</a></li>
+			</ul>
+		</div>
+		<br/>
+		<div id="contenu">
+			<div id="formulaire">
+				<h1>Contactez-Moi en remplissant cette formulaire:</h1>
+				<fieldset>
+					<legend>Contactez-Moi</legend>
+					<form method="post" action="traitement.php">
+						<p>
+							<label for="nom"><font size="2" color="red">*</font>Nom:</label>
+							<input type="text" name="nom" id="nom" placeholder="Votre Nom ici" size="20" maxlength="20" required/>
+						</p>
+						<p>
+							<label for="prenom"><font size="2" color="red">*</font>Prénom:</label>
+							<input type="text" name="prenom" id="prenom" placeholder="Votre Prénom ici" size="20" maxlength="20" required/>
+						</p>
+						<p>
+							<label for="sexe"><font size="2" color="red">*</font>Sexe:</label>
+							<input type="radio" name="sexe" id="sexe" checked value="Male" required/> Mâle
+							<input type="radio" name="sexe" id="sexe" value="Female" required/> Femelle
+						</p>
+						<p>
+							<label for="pays">Pays:</label>
+							<select name="pays">
+							<optgroup label="Afrique">
+								<option selected>Tunisie</option>
+								<option>Algérie</option>
+								<option>Maroc</option>
+								<option>Libye</option>
+							</optgroup>
+							
+							<optgroup label="Europe">
+								<option>France</option>
+								<option>Espagne</option>
+								<option>Italie</option>
+								<option>Royaume-Uni</option>
+							</optgroup>
+							
+							<optgroup label="Amérique">
+								<option>Canada</option>
+								<option>Etats-Uni</option>
+							</optgroup>
+							
+							<optgroup label="Asie">
+								<option>Chine</option>
+								<option>Japon</option>
+							</optgroup>
+							</select>
+						</p>
+						<p>
+							<label for="date"><font size="2" color="red">*</font>Date de naissance:</label>
+							<input type="date" name="date" id="date" required/>
+						</p>
+						<p>
+							<label for="email"><font size="2" color="red">*</font>E-mail:</label>
+							<input type="email" name="email" id="email" placeholder="Votre Email Ici" required/>
+						</p>
+						<p>
+							<label for="tel">Téléphone:</label>
+							<input type="tel" name="tel" id="tel" placeholder="Votre Téléphone Ici" pattern="^0[1-9][0-9]{8}$"/>
+						</p>
+						<p>
+							<label for="sujet"><font size="2" color="red">*</font>Sujet du message:</label>
+							<select name="sujet" id="sujet" required multiple>
+								<option>Les Menaces</option>
+								<option>Les Techniques</option>
+								<option>Les Protections</option>
+								<option>Les Logiciels</option>
+								<option>Autres</option>
+							</select>
+							<font size="1">(Vous pouvez choisir plusieurs éléments en faisant <strong>CTRL+CLIC</strong> sur chaque élément souhaité)</font>
+						</p>
+						<p>
+							<label for="message"><font size="2" color="red">*</font>Message:</label><br/>
+						</p>
+						<p>
+							<textarea name="message" id="message" rows="15" cols="100" placeholder="Votre Message Ici" required></textarea>
+						</p>
+						<br/>
+						<font size="2" color="red">*</font><font size="2"><strong> Signifie que c'est un champ obligatoire!</strong></font>
+						<br/><br/>
+							<input style="margin-left: 40%;" type="submit" class="bouton" value="Envoyer"/>
+							<input style="margin-left: 2%;" type="reset" class="bouton" value="Effacer"/>
+					</form>
+				</fieldset>
+			</div>
+			<br/>
+			<p><strong style="color: #7D6865;">Vous pouvez me contacter également avec les médias sociaux en cliquant sur les icônes en haut de la page.</strong></p><br/>
+		</div>
+	</body>
+	
+</html>
